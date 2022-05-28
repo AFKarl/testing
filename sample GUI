@@ -41,3 +41,8 @@ class stopwatch(tk.Frame):
         self.reset_button.pack(anchor='s', side=tk.LEFT)
 
         self.window.title("STOPWATCH")
+
+
+root = tk.Tk()
+obj = stopwatch(window=root)
+obj.mainloop()
